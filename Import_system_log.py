@@ -12,7 +12,7 @@ def myfunc():
     print("{}".format(c+1) +". "+"Files copied successfully")
 
 while True:
-    if c == 2:
+    if c == 50:                    # Say we want to repeat this finction for 50 times  
         print("Exiting the code...")
         sys.exit()                  # To exit from infinite loop
     else:
@@ -25,7 +25,7 @@ while True:
                 with open("/home/ubuntu/logs/new_logs.csv", "a") as g:       # copy/write the latest logs from templogs.txt to new_logs.csv file in logs folder
                     g.writelines(k)
         c = c + 1
-        time.sleep(5)              # Repeats the function after every 5 mins
+        time.sleep(300)              # Repeats the function after every 5 mins
 
 
 
