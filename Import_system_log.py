@@ -1,6 +1,5 @@
 import subprocess                  # To run the CLI commands on pyton
 import os                          # To change the directory
-from threading import Timer        # Maybe used for repeat the function
 import time                        # Repeat a  function after an Interva
 import sys                         # Exit from Infinite while loop
 
