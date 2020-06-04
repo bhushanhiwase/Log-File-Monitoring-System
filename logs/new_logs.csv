@@ -1,0 +1,4 @@
+May 30, 02:47:19 , ubuntu1804 , anacron[876]: Job `cron.daily' terminated
+May 30, 02:54:19 , ubuntu1804 , dhclient[1061]: DHCPREQUEST of 192.168.64.129 on ens33 to 192.168.64.254 port 67 (xid=0x242d8f16)
+May 30, 02:54:19 , ubuntu1804 , NetworkManager[882]: <info>  [1590821659.5864] dhcp4 (ens33):   address 192.168.64.129
+May 30, 02:54:19 , ubuntu1804 , dbus-daemon[815]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.13' (uid=0 pid=882 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
