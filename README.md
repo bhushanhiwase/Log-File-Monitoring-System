@@ -1,5 +1,5 @@
 # Log-File-Monitoring-System
-A system to parse system logs and display it on a Web page
+A system to parse logs in the system and display it on a Web page
 
 
 Aim of the project : 
