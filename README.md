@@ -15,3 +15,6 @@ Required Installation:
 - Install PreetyTable module in python using command (pip install PreetyTable)
 
 
+--> You may see an example of imported first few logs and updated log table on webpage, in the Logs folder in the files page
+
+
