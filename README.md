@@ -7,8 +7,8 @@ Aim of the project :
 - Upload the Logs in the csv file on a webpage
 
 Implementation:
-1. Run the Import_system_log.py script -> This imports the system logs after defined period of time into a csv file named, new_logs.csv
-2. Run the scipt Webpage_Script.py -> This reads the data in new_logs.csv file and uploads the data table to a webpage creating an HTML script
+1. Run the Import_system_log.py script --> This imports the system logs after defined period of time into a csv file named, new_logs.csv
+2. Run the scipt Webpage_Script.py --> This reads the data in new_logs.csv file and uploads the data table to a webpage creating an HTML script
 
 Required Installation:
 - Ubuntu OS on Virtul Machine
