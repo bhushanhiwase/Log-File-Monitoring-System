@@ -3,12 +3,12 @@ import os                          # To change the directory
 import time                        # Repeat a  function after an Interva
 import sys                         # Exit from Infinite while loop
 
-c = 0 
+count = 0 
 
 def myfunc():
     os.chdir("/var/log")           # This takes you to the log file directory
     subprocess.run("cat syslog  > /home/ubuntu/logs/templogs.txt", shell=True)  # Directly runs the command to import the logs in templogs.txt
-    print("{}".format(c+1) +". "+"Files copied successfully")
+    print("{}".format(count+1) +". "+"Files copied successfully")
 
 while True:
     if c == 50:                    # Say we want to repeat this finction for 50 times  
