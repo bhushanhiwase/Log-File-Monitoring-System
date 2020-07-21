@@ -11,7 +11,7 @@ def myfunc():
     print("{}".format(count+1) +". "+"Files copied successfully")
 
 while True:
-    if c == 50:                    # Say we want to repeat this finction for 50 times  
+    if count == 50:                    # Say we want to repeat this finction for 50 times  
         print("Exiting the code...")
         sys.exit()                  # To exit from infinite loop
     else:
@@ -20,10 +20,10 @@ while True:
             subprocess.run("rm /home/ubuntu/logs/new_logs.csv", shell=True)  # Removes the old logs in the new_logs.csv file so that only new logs are pesent
             for lines in f: 
                 string = f.readline()
-                k = "{}, {}, {}, {}".format(string[0:6], string[7:16], string[16:27], string[27:])
+                k = "{}, {}, {}, {}".format(string[0:6], string[7:16], string[16:27], string[27:])  # representing the data by sclicing it
                 with open("/home/ubuntu/logs/new_logs.csv", "a") as g:       # copy/write the latest logs from templogs.txt to new_logs.csv file in logs folder
                     g.writelines(k)
-        c = c + 1
+        count += 1
         time.sleep(300)              # Repeats the function after every 5 mins
 
 
