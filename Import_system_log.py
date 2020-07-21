@@ -22,7 +22,7 @@ while True:
                 string = f.readline()
                 k = "{}, {}, {}, {}".format(string[0:6], string[7:16], string[16:27], string[27:])  # representing the data by sclicing it
                 with open("/home/ubuntu/logs/new_logs.csv", "a") as g:       # copy/write the latest logs from templogs.txt to new_logs.csv file in logs folder
-                    g.writelines(k)
+                    g.writelines(k)                                          # writing the formatted data in string k to the file calld new_logs.csv
         count += 1
         time.sleep(300)              # Repeats the function after every 5 mins
 
